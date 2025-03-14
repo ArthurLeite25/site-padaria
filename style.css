@@ -1,0 +1,174 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilização do cabeçalho */
+.hero {
+    background: url('padaria-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    background-color: #E67E22;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFD700;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero nav .btn {
+    margin: 5px;
+    background-color: #D35400;
+    color: #fff;
+    border: none;
+}
+
+.hero nav .btn:hover {
+    background-color: #A04000;
+}
+
+/* Estilização do carrossel */
+.carousel-inner img {
+    max-height: 250px;
+    width: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Seção de História */
+#historia {
+    padding: 50px;
+    background-color: #FFF3E0;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+#historia .text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #E67E22;
+}
+
+#historia p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.images img {
+    width: 80%;
+    max-height: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Seção de Novidades como vitrine de preços */
+#novidades {
+    background-color: #FDE3A7;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+#novidades h2 {
+    color: #D35400;
+}
+
+.vitrine {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.vitrine-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 220px;
+}
+
+.vitrine-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.vitrine-item .preco-antigo {
+    color: red;
+    text-decoration: line-through;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.vitrine-item .preco-novo {
+    color: green;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 128, 0, 0.7);
+}
+
+/* Rodapé */
+.footer {
+    background: #3e3b3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+.footer a {
+    color: #FDE3A7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

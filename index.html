@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Padaria Delícia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Bem-vindo à Padaria Delícia</h1>
+        <p>Pães fresquinhos e saborosos todos os dias!</p>
+        <nav>
+            <a href="#historia" class="btn btn-light">Saiba Mais</a>
+            <a href="#contato" class="btn btn-outline-light">Contato</a>
+            <a href="#produtos" class="btn btn-outline-light">Produtos</a>
+            <a href="#novidades" class="btn btn-outline-light">Novidades</a>
+        </nav>
+    </header>
+    
+    <section id="carrossel" class="container mt-5">
+        <div id="carouselProdutos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pao.jpg" class="d-block mx-auto img-fluid" alt="Pães">
+                </div>
+                <div class="carousel-item">
+                    <img src="bolo.webp" class="d-block mx-auto img-fluid" alt="Bolos">
+                </div>
+                <div class="carousel-item">
+                    <img src="doces.jpg" class="d-block mx-auto img-fluid" alt="Doces">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselProdutos" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselProdutos" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </section>
+    
+    <section id="historia" class="features container d-flex align-items-center justify-content-between flex-wrap">
+        <div class="text col-md-6">
+            <h2>Nossa História</h2>
+            <p>A Padaria Delícia nasceu em 1985 com um propósito: trazer o sabor autêntico dos pães artesanais para a nossa comunidade. Tudo começou em uma pequena loja de esquina, onde cada pão era feito com dedicação, seguindo receitas passadas de geração em geração.</p>
+            <p>Uma boa padaria não se faz apenas de bons ingredientes, mas também de paixão pelo que se faz. Desde o primeiro dia, prezamos pelo uso de farinhas selecionadas, fermentação natural e técnicas tradicionais de panificação. O aroma do pão saindo do forno logo cedo se tornou um convite diário para nossos clientes, que encontraram aqui mais do que uma padaria – um lugar acolhedor, onde cada pedaço conta uma história.</p>
+            <p>Com o tempo, fomos crescendo e inovando, trazendo doces irresistíveis, bolos caseiros e um atendimento sempre atencioso. Uma boa padaria precisa ter produtos frescos, variedade de opções, um ambiente convidativo e, claro, um café quentinho para acompanhar.</p>
+            <p>Nosso compromisso continua sendo o mesmo: qualidade, tradição e aquele sabor inconfundível que faz com que cada visita à Padaria Delícia seja uma experiência única. Venha nos visitar e descubra por que há décadas somos sinônimo de sabor e carinho!</p>
+        </div>
+        <div class="images col-md-6 text-center">
+            <img src="balcao.webp" class="img-fluid rounded shadow-lg mb-3" alt="Nossa Padaria">
+            <img src="padeiro.jpg" class="img-fluid rounded shadow-lg" alt="O Fundador da Padaria">
+            <img src="predio.jpg" class="img-fluid rounded shadow-lg">
+        </div>
+    </section>
+    
+    <section id="novidades" class="features text-center container">
+        <h2>Novidades e Promoções</h2>
+        <p>Aproveite os descontos especiais desta semana e experimente nossos lançamentos!</p>
+        <ul class="list-group">
+            <li class="list-group-item">Pães franceses - 20% de desconto</li>
+            <li class="list-group-item">Bolos caseiros - 15% de desconto</li>
+            <li class="list-group-item">Sonhos recheados - 10% de desconto</li>
+            <li class="list-group-item">Novo croissant de chocolate - Experimente já!</li>
+            <li class="list-group-item">Lançamento: Pão artesanal com fermentação natural</li>
+            <li class="list-group-item">Café especial da casa - Agora com grãos selecionados!</li>
+            <li class="list-group-item">Combo café + pão na chapa por apenas R$ 5,90</li>
+        </ul>
+    </section>
+    
+    <footer id="contato" class="footer">
+        <p>&copy; 2025 Padaria Delícia</p>
+        <p>Email: contato@padariadelicia.com</p>
+        <p>Telefone: (11) 99999-9999</p>
+        <p>Redes Sociais: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
